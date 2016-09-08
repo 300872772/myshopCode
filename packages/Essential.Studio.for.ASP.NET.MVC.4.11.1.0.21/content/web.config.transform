@@ -1,0 +1,86 @@
+<configuration>
+  <system.web>
+    <compilation>
+      <assemblies>
+        <add assembly="AjaxMin, Version=4.57.4561.28951, Culture=neutral, PublicKeyToken=21ef50ce11b5d80f" />
+        <add assembly="Syncfusion.Core, Version=11.104.0.21, Culture=neutral, PublicKeyToken=632609B4D040F6B4" />
+        <add assembly="Syncfusion.Shared.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Linq.Base, Version=11.104.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Theme.Base, Version=11.104.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Tools.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Chart.Base, Version=11.104.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Chart.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.DashboardViewer.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Compression.Base, Version=11.104.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Shared.Base, Version=11.104.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Grid.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Schedule.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Gauge.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Gauge.Wpf, Version=11.104.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Shared.Wpf, Version=11.104.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Diagram.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.XlsIO.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89"/>
+        <add assembly="Syncfusion.DocIO.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89"/>
+	<add assembly="Syncfusion.Pdf.Base, Version=11.104.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Pdf.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.PdfViewer.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.ReportViewer.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.ReportWriter.Base, Version=11.104.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Chart.Wpf, Version=11.104.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Olap.Base, Version=11.104.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.OlapGrid.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.OlapShared.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.OlapChart.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.OlapClient.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.Maps.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+        <add assembly="Syncfusion.SfBarcode.Mvc, Version=11.144.0.21, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+      </assemblies>
+    </compilation>
+    <pages>
+      <namespaces>
+          <add namespace="Syncfusion.Mvc.Shared" />
+        <add namespace="Syncfusion.Mvc.Tools" />
+        <add namespace="Syncfusion.Mvc.Chart" />
+        <add namespace="Syncfusion.Windows.Forms.Chart" />
+        <add namespace="Syncfusion.Mvc.Grid" />
+        <add namespace="Syncfusion.Mvc.Schedule" />
+        <add namespace="Syncfusion.Mvc.Gauge" />
+        <add namespace="Syncfusion.Mvc.Diagram" />
+        <add namespace="Syncfusion.Mvc.ChartAdv" />
+        <add namespace="Syncfusion.Mvc.GaugeAdv" />
+        <add namespace="Syncfusion.PdfViewer.Mvc" />
+        <add namespace="Syncfusion.ReportViewer.Mvc" />
+        <add namespace="Syncfusion.Mvc.Olap.Grid" />
+        <add namespace="Syncfusion.Olap.Manager" />
+        <add namespace="Syncfusion.Olap.Reports" />
+        <add namespace="Syncfusion.Mvc.Olap.Shared" />
+        <add namespace="Syncfusion.Mvc.Olap.Chart" />
+        <add namespace="Syncfusion.Mvc.Olap.Client" />
+      </namespaces>
+    </pages>
+     <httpHandlers>
+      <add verb="GET,HEAD" path="MvcResourceHandler.axd" type="Syncfusion.Mvc.Shared.MvcResourceHandler, Syncfusion.Shared.Mvc, Version=11.2440.0.25, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" validate="false" />
+      <add verb="*" path="syncfusion_generate.axd" validate="false" type="Syncfusion.Mvc.Chart.MvcChartHandler, Syncfusion.Chart.Mvc, Version=11.2440.0.25, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+      <add verb="*" path="sfgenerate_tools.axd" type="Syncfusion.Mvc.Tools.ImageHandler, Syncfusion.Shared.Mvc, Version=11.2440.0.25, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" validate="false" />
+      <add verb="*" path="syncfusion_generateGauge.axd" type="Syncfusion.Mvc.Gauge.ImageHandler, Syncfusion.Gauge.Mvc, Version=11.2440.0.25, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" validate="false" />
+      <add verb="*" path="syncfusion_generatepdf.axd" validate="false" type="Syncfusion.PdfViewer.Mvc.PdfViewerHandler, Syncfusion.PdfViewer.Mvc, Version=11.2440.0.25, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+      <add verb="*" path="syncfusion_generatereports.axd" validate="false" type="Syncfusion.ReportViewer.Mvc.ReportViewerHandler, Syncfusion.ReportViewer.Mvc, Version=11.2440.0.25, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    </httpHandlers>
+  </system.web>
+  <system.webServer>
+       <handlers>
+      <remove name="syncfusion_generatepdf" />
+      <remove name="MvcGaugeImageHandler" />
+      <remove name="syncfusion_generate" />
+      <remove name="MvcResourceHandler" />
+      <add verb="GET,HEAD" name="MvcResourceHandler" path="MvcResourceHandler.axd" type="Syncfusion.Mvc.Shared.MvcResourceHandler, Syncfusion.Shared.Mvc, Version=11.2440.0.25, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+      <add verb="*" path="syncfusion_generate.axd" name="syncfusion_generate" type="Syncfusion.Mvc.Chart.MvcChartHandler, Syncfusion.Chart.Mvc, Version=11.2440.0.25, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+      <add verb="*" path="sfgenerate_tools.axd" name="syncfusion_generatetools" type="Syncfusion.Mvc.Tools.ImageHandler, Syncfusion.Shared.Mvc, Version=11.2440.0.25, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+      <add verb="*" name="MvcGaugeImageHandler" path="syncfusion_generateGauge.axd" type="Syncfusion.Mvc.Gauge.ImageHandler, Syncfusion.Gauge.Mvc, Version=11.2440.0.25, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+      <add verb="*" path="syncfusion_generatepdf.axd" name="syncfusion_generatepdf" type="Syncfusion.PdfViewer.Mvc.PdfViewerHandler, Syncfusion.PdfViewer.Mvc, Version=11.2440.0.25, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+      <add verb="*" path="syncfusion_generatereports.axd" name="syncfusion_generatereports" type="Syncfusion.ReportViewer.Mvc.ReportViewerHandler, Syncfusion.ReportViewer.Mvc, Version=11.2440.0.25, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89" />
+    </handlers>
+  </system.webServer>
+
+ 
+</configuration>
